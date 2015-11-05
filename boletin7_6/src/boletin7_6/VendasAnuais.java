@@ -21,6 +21,7 @@ public class VendasAnuais {
     public VendasAnuais (float ventas){
     this.ventas = ventas;
     }
+    
     public String comparar(){
     if (ventas <= 100){
         return a;
