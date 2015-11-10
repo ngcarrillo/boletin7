@@ -20,6 +20,7 @@ public class Boletin7_6 {
         // TODO code application logic here
         float ventas = Float.parseFloat (JOptionPane.showInputDialog("Introduce el numero de ventas"));
         VendasAnuais VendasAnuais1 = new VendasAnuais(ventas);
+        JOptionPane.showMessageDialog (null, "O artigo é de clase "+VendasAnuais1.comparar());
     }
     
 }

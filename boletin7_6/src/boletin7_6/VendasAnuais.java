@@ -25,7 +25,7 @@ public class VendasAnuais {
     public String comparar(){
     if (ventas <= 100){
         return a;
-    } else if (ventas > 100 && ventas >= 500){
+    } else if (ventas > 100 && ventas <= 500){
         return b;
         
     } else if (ventas > 500 && ventas <=1000){
